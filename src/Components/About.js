@@ -26,7 +26,7 @@ class About extends Component {
                   // className="profile-pic"
                   style={{borderRadius: "10px", margin: "30px", width: "300px"}}
                   src={profilepic}
-                  alt="Owner's Photo"
+                  alt="alter"
                 />
               </center>
             </div>

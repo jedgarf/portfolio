@@ -7,6 +7,7 @@ class Portfolio extends Component {
   render() {
     if (!this.props.data) return null;
 
+    // eslint-disable-next-line
     const projects = this.props.data.projects.map(function (projects) {
       let projectImage = "images/portfolio/" + projects.image;
 
