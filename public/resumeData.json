@@ -1,0 +1,168 @@
+{
+    "main": {
+        "name": "John Edgar Francisco",
+        "description": "I am a web and app developer and I use some popular programming frameworks for my projects",
+        "image": "profilepic.jpg",
+        "bio": "John Edgar is currently working as a Software Developer and is always interested in a challenging project.",
+        "contactmessage": "If you have any questions, please feel free to drop me a line. If you don't get an answer immediately. I might just be travelling through the middle of nowhere. I'll get back to you as soon as I can. That's a promise!",
+        "email": "jedgarf.dev12@gmail.com",
+        "phone": "555-555-5555",
+        "github": "https://github.com/jedgarf",
+        "project": "#portfolio",
+        "address": {
+            "street": "00096 Purok 3 Brgy. Bantog",
+            "city": "San Miguel, Bulacan",
+            "state": "Philippines",
+            "zip": "3011"
+        },
+        "website": "",
+        "resumedownload": "",
+        "social": [{
+                "name": "facebook",
+                "url": "https://www.facebook.com/jedgarf/",
+                "className": "fa fa-facebook"
+            },
+            {
+                "name": "instagram",
+                "url": "https://www.instagram.com/jedgarf_12/",
+                "className": "fa fa-instagram"
+            },
+            {
+                "name": "linkedin",
+                "url": "https://www.linkedin.com/in/jedgarf/",
+                "className": "fa fa-linkedin"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/jedgarf",
+                "className": "fa fa-github"
+            }
+        ]
+    },
+    "resume": {
+        "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+        "education": [{
+            "school": "Nueva Ecija University of Science and Technology",
+            "degree": "Bachelor of Science in Information Technology (Major: Database Applications Programming)",
+            "graduated": "April 2018",
+            "description": ""
+        }],
+        "work": [{
+                "company": "WeSupport Inc.",
+                "title": "Software Developer",
+                "years": "November 2019 - Present",
+                "description": "25/F D Citibank Tower, 8741 Paseo de Roxas, Makati City 1200"
+            },
+            {
+                "company": "Servicio Filipino Inc.",
+                "title": "Jr. PHP Developer",
+                "years": "October 2018 - November 2019",
+                "description": "305 West Avenue, Project 7, Quezon City"
+            }
+        ],
+        "skills": [{
+                "name": "Codeigniter (PHP Framework)",
+                "level": "90%"
+            },
+            {
+                "name": "Yii1 (PHP Framework)",
+                "level": "70%"
+            },
+            {
+                "name": "Laravel (PHP Framework)",
+                "level": "50%"
+            },
+            {
+                "name": "Flutter (Dart Framework)",
+                "level": "50%"
+            },
+            {
+                "name": "ReactJS",
+                "level": "50%"
+            },
+            {
+                "name": "Django (Python Web Framework)",
+                "level": "50%"
+            },
+            {
+                "name": "MySQL",
+                "level": "80%"
+            }
+        ]
+    },
+    "portfolio": {
+        "projects": [{
+                "title": "Canadian Wanderlust",
+                "category": "My Travel Blog for my post-university travels",
+                "image": "01.jpg",
+                "url": "https://www.canadianwanderlust.com"
+            },
+            {
+                "title": "Fury Fighting Gear",
+                "category": "(offline now) A fighting gear company I started",
+                "image": "02.jpg",
+                "url": "http://www.timbakerdev.com"
+            },
+            {
+                "title": "Original Thai Food",
+                "category": "Website I built for a restaurant I like in Thailand",
+                "image": "03.jpg",
+                "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+            },
+            {
+                "title": "Resume Website",
+                "category": "A React based resume website template",
+                "image": "04.jpg",
+                "url": "http://www.timbakerdev.com"
+            },
+            {
+                "title": "Smirkspace",
+                "category": "(MVP Only) A React and Meteor based chat University project.",
+                "image": "05.jpg",
+                "url": "http://www.smirkspace.com"
+            },
+            {
+                "title": "Canadian Wanderlust",
+                "category": "My Travel Blog for my post-university travels",
+                "image": "06.jpg",
+                "url": "https://www.canadianwanderlust.com"
+            },
+            {
+                "title": "Fury Fighting Gear",
+                "category": "(offline now) A fighting gear company I started",
+                "image": "01.jpg",
+                "url": "http://www.timbakerdev.com"
+            },
+            {
+                "title": "Original Thai Food",
+                "category": "Website I built for a restaurant I like in Thailand",
+                "image": "02.jpg",
+                "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+            },
+            {
+                "title": "Original Thai Food",
+                "category": "Website I built for a restaurant I like in Thailand",
+                "image": "03.jpg",
+                "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+            },
+            {
+                "title": "Resume Website",
+                "category": "A React based resume website template",
+                "image": "04.jpg",
+                "url": "http://www.timbakerdev.com"
+            },
+            {
+                "title": "Smirkspace",
+                "category": "(MVP Only) A React and Meteor based chat University project.",
+                "image": "05.jpg",
+                "url": "http://www.smirkspace.com"
+            },
+            {
+                "title": "Canadian Wanderlust",
+                "category": "My Travel Blog for my post-university travels",
+                "image": "06.jpg",
+                "url": "https://www.canadianwanderlust.com"
+            }
+        ]
+    }
+}
