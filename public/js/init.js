@@ -92,7 +92,7 @@ jQuery(document).ready(function($) {
         "&contactMessage=" +
         contactMessage;
 
-      // alert(data);
+      alert("Successfully Sent!");
 
       $.ajax({
         type: "POST",

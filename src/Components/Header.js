@@ -7,13 +7,13 @@ class Header extends Component {
     if (!this.props.data) return null;
 
     const project = this.props.data.project;
-    // const github = this.props.data.github;
+    const linkin = this.props.data.linkin;
     const name = this.props.data.name;
     const description = this.props.data.description;
 
     return (
       <header id="home">
-        <ParticlesBg type="lines" bg={true} />
+        {/* <ParticlesBg type="lines" bg={true} /> */}
 
         <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
@@ -44,7 +44,7 @@ class Header extends Component {
 
             <li>
               <a className="smoothscroll" href="#portfolio">
-                Works
+                Projects
               </a>
             </li>
 
@@ -59,7 +59,7 @@ class Header extends Component {
         <div className="row banner">
           <div className="banner-text">
             <Fade bottom>
-              <h1 className="responsive-headline">{name}</h1>
+              <big className="responsive-headline header-name">{name}</big>
             </Fade>
             <Fade bottom duration={1200}>
               <h3>{description}.</h3>
@@ -67,12 +67,12 @@ class Header extends Component {
             <hr />
             <Fade bottom duration={2000}>
               <ul className="social">
-                <a href={project} className="button btn project-btn">
-                  <i className="fa fa-book"></i>Project
+                <a href={project} className="button btn btn-rounded project-btn">
+                  <i className="fa fa-desktop"></i>Projects
                 </a>
-                {/* <a href={github} className="button btn github-btn">
-                  <i className="fa fa-github"></i>Github
-                </a> */}
+                <a href={linkin} className="button btn btn-rounded linkedin-btn">
+                  <i className="fa fa-linkedin"></i>LinkIn
+                </a>
               </ul>
             </Fade>
           </div>

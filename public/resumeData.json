@@ -1,16 +1,17 @@
 {
     "main": {
         "name": "John Edgar Francisco",
-        "description": "I am a web and app developer and I use some popular programming frameworks for my projects",
-        "image": "profilepic.jpg",
+        "description": "I'm a backend web and app developer and I use some popular programming frameworks for my projects",
+        "image": "profilepic2.jpg",
         "bio": "John Edgar is currently working as a Software Developer and is always interested in a challenging project.",
         "contactmessage": "If you have any questions, please feel free to drop me a line. If you don't get an answer immediately. I might just be travelling through the middle of nowhere. I'll get back to you as soon as I can. That's a promise!",
         "email": "jedgarf.dev12@gmail.com",
-        "phone": "555-555-5555",
+        "phone": "+639xxxxxxxxxx",
         "github": "https://github.com/jedgarf",
+        "linkin": "https://www.linkedin.com/in/jedgarf/",
         "project": "#portfolio",
         "address": {
-            "street": "00096 Purok 3 Brgy. Bantog",
+            "street": "312 Purok 3 Brgy. Bantog",
             "city": "San Miguel, Bulacan",
             "state": "Philippines",
             "zip": "3011"
@@ -49,15 +50,24 @@
         }],
         "work": [{
                 "company": "WeSupport Inc.",
+                "website": "https://wesupportinc.com",
                 "title": "Software Developer",
                 "years": "November 2019 - Present",
                 "description": "25/F D Citibank Tower, 8741 Paseo de Roxas, Makati City 1200"
             },
             {
                 "company": "Servicio Filipino Inc.",
+                "website": "https://www2.serviciofilipino.com/",
                 "title": "Jr. PHP Developer",
                 "years": "October 2018 - November 2019",
                 "description": "305 West Avenue, Project 7, Quezon City"
+            },
+            {
+                "company": "Excelsis Pharma",
+                "website": "http://www.excelsispharma.com/",
+                "title": "IT Assistant (Internship)",
+                "years": "October 2017 - March 2018",
+                "description": "Bayanihan, Gapan City"
             }
         ],
         "skills": [{
@@ -92,77 +102,13 @@
     },
     "portfolio": {
         "projects": [{
-                "title": "Canadian Wanderlust",
-                "category": "My Travel Blog for my post-university travels",
-                "image": "01.jpg",
-                "url": "https://www.canadianwanderlust.com"
-            },
-            {
-                "title": "Fury Fighting Gear",
-                "category": "(offline now) A fighting gear company I started",
-                "image": "02.jpg",
-                "url": "http://www.timbakerdev.com"
-            },
-            {
-                "title": "Original Thai Food",
-                "category": "Website I built for a restaurant I like in Thailand",
-                "image": "03.jpg",
-                "url": "http://www.timbakerdev.com/originalthaifood.github.io"
-            },
-            {
-                "title": "Resume Website",
-                "category": "A React based resume website template",
-                "image": "04.jpg",
-                "url": "http://www.timbakerdev.com"
-            },
-            {
-                "title": "Smirkspace",
-                "category": "(MVP Only) A React and Meteor based chat University project.",
-                "image": "05.jpg",
-                "url": "http://www.smirkspace.com"
-            },
-            {
-                "title": "Canadian Wanderlust",
-                "category": "My Travel Blog for my post-university travels",
-                "image": "06.jpg",
-                "url": "https://www.canadianwanderlust.com"
-            },
-            {
-                "title": "Fury Fighting Gear",
-                "category": "(offline now) A fighting gear company I started",
-                "image": "01.jpg",
-                "url": "http://www.timbakerdev.com"
-            },
-            {
-                "title": "Original Thai Food",
-                "category": "Website I built for a restaurant I like in Thailand",
-                "image": "02.jpg",
-                "url": "http://www.timbakerdev.com/originalthaifood.github.io"
-            },
-            {
-                "title": "Original Thai Food",
-                "category": "Website I built for a restaurant I like in Thailand",
-                "image": "03.jpg",
-                "url": "http://www.timbakerdev.com/originalthaifood.github.io"
-            },
-            {
-                "title": "Resume Website",
-                "category": "A React based resume website template",
-                "image": "04.jpg",
-                "url": "http://www.timbakerdev.com"
-            },
-            {
-                "title": "Smirkspace",
-                "category": "(MVP Only) A React and Meteor based chat University project.",
-                "image": "05.jpg",
-                "url": "http://www.smirkspace.com"
-            },
-            {
-                "title": "Canadian Wanderlust",
-                "category": "My Travel Blog for my post-university travels",
-                "image": "06.jpg",
-                "url": "https://www.canadianwanderlust.com"
-            }
-        ]
+            "title": "LSC Voting System",
+            "category": "Personal Projects",
+            "details": "Local Student Council Voting System / Pure PHP",
+            "brief": "College Thesis",
+            "requirements": "PHP 5.6",
+            "image": "01.jpg",
+            "url": "https://www.canadianwanderlust.com"
+        }]
     }
 }

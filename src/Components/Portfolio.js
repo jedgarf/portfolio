@@ -28,14 +28,14 @@ class Portfolio extends Component {
             <div className="twelve columns collapsed">
               <h1>Check Out Some of My Works.</h1>
 
-              <p>Will be posted soon.</p>
+              <p hidden>Will be posted soon.</p>
 
-              {/* <div
+              {<div
                 id="portfolio-wrapper"
                 className="bgrid-quarters s-bgrid-thirds cf"
               >
                 {projects}
-              </div> */}
+              </div>}
             </div>
           </div>
         </Fade>
