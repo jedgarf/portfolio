@@ -29,6 +29,15 @@ body {
     background: rgb(32, 32, 32);
 }
 
+.under-development-sign-div {
+    background-color: rgb(103, 82, 221);
+}
+
+.under-development-sign {
+    color: blanchedalmond;
+    margin-left: 10px;
+}
+
 
 /* ------------------------------------------------------------------ */
 
