@@ -4,6 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// import google analytics
+import ReactGA from 'react-ga';
+
+ReactGA.initialize('305999221');
+
+ReactGA.pageview(window.location.pathname);
+
 ReactDOM.render(
   <App />,
   document.getElementById('root')
