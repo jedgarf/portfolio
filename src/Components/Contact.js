@@ -114,7 +114,7 @@ class Contact extends Component {
                   {street} <br />
                   {city}, {state} {zip}
                   <br />
-                  <span>{email}</span>
+                  <span><a href={"mailto:" + email}>{email}</a></span>
                 </p>
               </div>
 

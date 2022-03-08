@@ -73,11 +73,11 @@
             }
         ],
         "skills": [{
-                "name": "Codeigniter (PHP Framework)",
+                "name": "Codeigniter 3 (PHP Framework)",
                 "level": "90%"
             },
             {
-                "name": "Yii1 (PHP Framework)",
+                "name": "Yii 1 (PHP Framework)",
                 "level": "70%"
             },
             {
@@ -89,7 +89,7 @@
                 "level": "50%"
             },
             {
-                "name": "ReactJS (Front Web Framework)",
+                "name": "ReactJS (Frontend Web Framework)",
                 "level": "50%"
             },
             {
@@ -231,5 +231,6 @@
                 "url": "https://www.canadianwanderlust.com"
             }
         ]
-    }
+    },
+    "achievements": { "sample": "test" }
 }

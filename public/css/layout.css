@@ -391,6 +391,49 @@ ul#nav li.current a {
 }
 
 
+/* achievements */
+
+#achievements {
+    background: #fff;
+    padding-top: 90px;
+    padding-bottom: 72px;
+    overflow: hidden;
+}
+
+#achievements a,
+#achievements a:visited {
+    color: #0762f9;
+}
+
+#achievements a:hover,
+#achievements a:focus {
+    color: #313131;
+}
+
+#achievements h1 {
+    font: 18px/24px 'opensans-bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#achievements h1 span {
+    border-bottom: 3px solid #0762f9;
+    padding-bottom: 6px;
+}
+
+#achievements h3 {
+    font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#achievements .header-col {
+    padding-top: 9px;
+}
+
+#achievements .main-col {
+    padding-right: 10%;
+}
+
+
 /*----------------------------------------------*/
 
 
