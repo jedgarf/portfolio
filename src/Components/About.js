@@ -38,16 +38,16 @@ class About extends Component {
                 <div className="columns contact-details" style={{marginLeft: "30px"}}>
                   <h2>Contact Details</h2>
                   <p className="address">
-                    <span>{name}</span>
-                    <br />
+                    {/* <span>{name}</span>
+                    <br /> */}
                     <span>
                       {street}
                       <br />
                       {city} {state}, {zip}
                     </span>
                     <br />
-                    <span>{phone}</span>
-                    <br />
+                    {/* <span>{phone}</span>
+                    <br /> */}
                     <span>{email}</span>
                   </p>
                 </div>

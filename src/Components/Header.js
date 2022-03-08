@@ -1,8 +1,19 @@
 import React, { Component } from "react";
 import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
+import { init } from "ityped";
+import { initialize } from "react-ga";
 
 class Header extends Component {
+
+  componentDidMount(){
+    const myElement = document.querySelector('#header-name-text')
+    if (myElement) {
+        myElement.textContent = ""
+    }
+    init(myElement, { showCursor: false, strings: ['John Edgar Francisco', 'a Backend Web Developer', 'a Application Developer' ] })
+  }
+
   render() {
     if (!this.props.data) return null;
 
@@ -62,7 +73,7 @@ class Header extends Component {
         <div className="row banner">
           <div className="banner-text">
             <Fade bottom>
-              <big className="responsive-headline header-name">{name}</big>
+              <big className="responsive-headline header-name">I'm <span id="header-name-text"></span></big>
             </Fade>
             <Fade bottom duration={1200}>
               <h3>{description}.</h3>

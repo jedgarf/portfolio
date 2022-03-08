@@ -11,6 +11,7 @@ class Contact extends Component {
     const state = this.props.data.address.state;
     const zip = this.props.data.address.zip;
     const phone = this.props.data.phone;
+    const email = this.props.data.email;
     const message = this.props.data.contactmessage;
 
     return (
@@ -108,12 +109,12 @@ class Contact extends Component {
               <div className="widget widget_contact">
                 <h4>Address and Phone</h4>
                 <p className="address">
-                  {name}
-                  <br />
+                  {/* {name}
+                  <br /> */}
                   {street} <br />
                   {city}, {state} {zip}
                   <br />
-                  <span>{phone}</span>
+                  <span>{email}</span>
                 </p>
               </div>
 
