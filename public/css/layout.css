@@ -1042,9 +1042,10 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-    background: url(../images/com.jpeg);
+    /* background: url(../images/com.jpeg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    background: #191919;
     /* background-color: black; */
     /* opacity: 0.4; */
     padding-top: 96px;

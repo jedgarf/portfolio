@@ -7,11 +7,11 @@ import { initialize } from "react-ga";
 class Header extends Component {
 
   componentDidMount(){
-    const myElement = document.querySelector('#header-name-text')
-    if (myElement) {
-        myElement.textContent = ""
-    }
-    init(myElement, { showCursor: false, strings: ['John Edgar Francisco', 'a Backend Web Developer', 'a Application Developer' ] })
+    // const myElement = document.querySelector('#header-name-text')
+    // if (myElement != null) {
+    //   init(myElement, { showCursor: false, strings: ['John Edgar Francisco', 'a Backend Web Developer', 'a Application Developer' ] })
+    // }
+    // init(myElement, { showCursor: false, strings: ['John Edgar Francisco', 'a Backend Web Developer', 'a Application Developer' ] })
   }
 
   render() {
@@ -20,6 +20,7 @@ class Header extends Component {
     const project = this.props.data.project;
     const linkin = this.props.data.linkin;
     const name = this.props.data.name;
+    const profilepic = "images/" + this.props.data.image1;
     const description = this.props.data.description;
 
     return (
@@ -71,24 +72,42 @@ class Header extends Component {
         </nav>
 
         <div className="row banner">
-          <div className="banner-text">
-            <Fade bottom>
-              <big className="responsive-headline header-name">I'm <span id="header-name-text"></span></big>
-            </Fade>
-            <Fade bottom duration={1200}>
-              <h3>{description}.</h3>
-            </Fade>
-            <hr />
-            <Fade bottom duration={2000}>
-              <ul className="social">
-                <a href={project} className="button btn btn-rounded project-btn">
-                  <i className="fa fa-desktop"></i>Projects
-                </a>
-                <a href={linkin} className="button btn btn-rounded linkedin-btn">
-                  <i className="fa fa-linkedin"></i>LinkIn
-                </a>
-              </ul>
-            </Fade>
+          <div className="nine columns main-col">
+            <div className="banner-text">
+                {/* <center>
+                  <img
+                    style={{borderRadius: "50px", width: "150px", marginTop: "1px"}}
+                    src={profilepic}
+                    alt="alter"
+                  />
+                </center> */}
+              <Fade bottom>
+                <big className="responsive-headline header-name">I'm <span id="header-name-text">John Edgar Francisco</span></big>
+              </Fade>
+              <Fade bottom duration={1200}>
+                <h3>{description}.</h3>
+              </Fade>
+              <hr />
+              <Fade bottom duration={2000}>
+                <ul className="social">
+                  <a href={project} className="button btn btn-rounded project-btn">
+                    <i className="fa fa-desktop"></i>Projects
+                  </a>
+                  <a href={linkin} className="button btn btn-rounded linkedin-btn">
+                    <i className="fa fa-linkedin"></i>LinkIn
+                  </a>
+                </ul>
+              </Fade>
+            </div>
+          </div>
+          <div className="three columns">
+            <center>
+                  <img
+                    style={{borderRadius: "20px", width: "500px"}}
+                    src={profilepic}
+                    alt="alter"
+                  />
+            </center>
           </div>
         </div>
 

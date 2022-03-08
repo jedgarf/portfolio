@@ -2,7 +2,8 @@
     "main": {
         "name": "John Edgar Francisco",
         "description": "I use some popular programming frameworks for my projects",
-        "image": "profilepic2.jpg",
+        "image": "profilepic5.jpg",
+        "image1": "profilepic3.jpg",
         "bio": "John Edgar is currently working as a Software Developer and is always interested in a challenging project.",
         "contactmessage": "If you have any questions, please feel free to drop me a line. If you don't get an answer immediately. I might just be travelling through the middle of nowhere. I'll get back to you as soon as I can. That's a promise!",
         "email": "jedgarf.dev12@gmail.com",
@@ -87,7 +88,7 @@
                 "level": "50%"
             },
             {
-                "name": "ReactJS",
+                "name": "ReactJS (Front Web Framework)",
                 "level": "50%"
             },
             {
@@ -95,7 +96,7 @@
                 "level": "50%"
             },
             {
-                "name": "MySQL",
+                "name": "SQL (MySQL/PostgreSQL)",
                 "level": "80%"
             }
         ]
