@@ -45,6 +45,7 @@
         "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
         "education": [{
             "school": "Nueva Ecija University of Science and Technology",
+            "website": "https://neust.edu.ph/",
             "degree": "Bachelor of Science in Information Technology (Major: Database Applications Programming)",
             "graduated": "April 2018",
             "description": ""

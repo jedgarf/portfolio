@@ -92,8 +92,6 @@ jQuery(document).ready(function($) {
         "&contactMessage=" +
         contactMessage;
 
-      alert("Successfully Sent!");
-
       $.ajax({
         type: "POST",
         url: "inc/sendEmail.php",
@@ -112,6 +110,11 @@ jQuery(document).ready(function($) {
             $("#message-warning").html(msg);
             $("#message-warning").fadeIn();
           }
+        },
+        error: function (error) {
+            $("#image-loader").fadeOut();
+            $("#message-warning").html("Backend API is currently under maintenance to improve some security issues.");
+            $("#message-warning").fadeIn();
         }
       });
       return false;
