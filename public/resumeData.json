@@ -103,13 +103,14 @@
     },
     "portfolio": {
         "projects": [{
-            "title": "LSC Voting System",
+            "title": "LSC Voting System (NEUST)",
             "category": "Personal Projects",
             "details": "Local Student Council Voting System / Pure PHP",
             "brief": "College Thesis",
             "requirements": "PHP 5.6",
             "image": "01.jpg",
             "url": "https://www.canadianwanderlust.com"
-        }]
+        }],
+        "company": []
     }
 }

@@ -33,10 +33,10 @@ class About extends Component {
             <div className="nine columns main-col">
               <h2 style={{marginLeft: "30px"}}>About Me</h2>
 
-              <p style={{marginLeft: "30px"}}>{bio}</p>
+              <p className="lead" style={{marginLeft: "30px"}}>{bio}</p>
               <div className="row">
                 <div className="columns contact-details" style={{marginLeft: "30px"}}>
-                  <h2>Contact Details</h2>
+                  <h2>Address & Contact Details</h2>
                   <p className="address">
                     {/* <span>{name}</span>
                     <br /> */}

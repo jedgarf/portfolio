@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import Zmage from "react-zmage";
 import Fade from "react-reveal";
 
+import Tabs from "./Tabs";
+
 let id = 0;
 class Portfolio extends Component {
   render() {
@@ -28,14 +30,20 @@ class Portfolio extends Component {
             <div className="twelve columns collapsed">
               <h1>Check Out Some of My Projects.</h1>
 
-              <p>Will be posted soon.</p>
+              <p hidden>Will be posted soon.</p>
 
-              {<div
-                id="portfolio-wrapper"
-                className="bgrid-quarters s-bgrid-thirds cf" hidden
-              >
-                {projects}
-              </div>}
+              <Tabs>
+                <div label="Personal Projects">
+                  {<div
+                    id="portfolio-wrapper"
+                    className="bgrid-quarters s-bgrid-thirds cf"
+                  >
+                    {projects}
+                  </div>}
+                </div>
+                <div label="Company Projects">
+                </div>
+              </Tabs>
             </div>
           </div>
         </Fade>
