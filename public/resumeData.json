@@ -103,14 +103,132 @@
     },
     "portfolio": {
         "projects": [{
-            "title": "LSC Voting System (NEUST)",
-            "category": "Personal Projects",
-            "details": "Local Student Council Voting System / Pure PHP",
-            "brief": "College Thesis",
-            "requirements": "PHP 5.6",
-            "image": "01.jpg",
-            "url": "https://www.canadianwanderlust.com"
-        }],
-        "company": []
+                "title": "LSC Voting System (NEUST)",
+                "category": "Personal Projects",
+                "details": "Local Student Council Voting System / Pure PHP",
+                "brief": "College Thesis",
+                "requirements": "PHP 5.6",
+                "image": "tobe_posted.png",
+                "url": "https://www.canadianwanderlust.com"
+            },
+            {
+                "title": "Students Monitoring System",
+                "category": "Personal Projects",
+                "details": "Local Student Council Voting System / Pure PHP",
+                "brief": "College Thesis",
+                "requirements": "PHP 5.6",
+                "image": "tobe_posted.png",
+                "url": "https://www.canadianwanderlust.com"
+            },
+            {
+                "title": "Queue Management System",
+                "category": "Personal Projects",
+                "details": "Local Student Council Voting System / Pure PHP",
+                "brief": "College Thesis",
+                "requirements": "PHP 5.6",
+                "image": "tobe_posted.png",
+                "url": "https://www.canadianwanderlust.com"
+            },
+            {
+                "title": "Yuan Yuna's Furniture System",
+                "category": "Personal Projects",
+                "details": "Local Student Council Voting System / Pure PHP",
+                "brief": "College Thesis",
+                "requirements": "PHP 5.6",
+                "image": "tobe_posted.png",
+                "url": "https://www.canadianwanderlust.com"
+            },
+            {
+                "title": "NEUST Tabulating System",
+                "category": "Personal Projects",
+                "details": "Local Student Council Voting System / Pure PHP",
+                "brief": "College Thesis",
+                "requirements": "PHP 5.6",
+                "image": "tobe_posted.png",
+                "url": "https://www.canadianwanderlust.com"
+            },
+            {
+                "title": "Gapan City College Library System",
+                "category": "Personal Projects",
+                "details": "Local Student Council Voting System / Pure PHP",
+                "brief": "College Thesis",
+                "requirements": "PHP 5.6",
+                "image": "tobe_posted.png",
+                "url": "https://www.canadianwanderlust.com"
+            },
+            {
+                "title": "Programming Tutorials Website",
+                "category": "Personal Projects",
+                "details": "Local Student Council Voting System / Pure PHP",
+                "brief": "College Thesis",
+                "requirements": "PHP 5.6",
+                "image": "tobe_posted.png",
+                "url": "https://www.canadianwanderlust.com"
+            }
+        ],
+        "companyProjects": [{
+                "title": "COGO ERP Systems",
+                "category": "Company Projects",
+                "details": "Local Student Council Voting System / Pure PHP",
+                "brief": "College Thesis",
+                "requirements": "PHP 5.6",
+                "image": "tobe_posted.png",
+                "url": "https://www.canadianwanderlust.com"
+            },
+            {
+                "title": "SFI Employee Portal",
+                "category": "Company Projects",
+                "details": "Local Student Council Voting System / Pure PHP",
+                "brief": "College Thesis",
+                "requirements": "PHP 5.6",
+                "image": "tobe_posted.png",
+                "url": "https://www.canadianwanderlust.com"
+            },
+            {
+                "title": "WSI Resume Builder",
+                "category": "Company Projects",
+                "details": "Local Student Council Voting System / Pure PHP",
+                "brief": "College Thesis",
+                "requirements": "PHP 5.6",
+                "image": "tobe_posted.png",
+                "url": "https://www.canadianwanderlust.com"
+            },
+            {
+                "title": "Oilhome School (Online Schooling System)",
+                "category": "Company Projects",
+                "details": "Local Student Council Voting System / Pure PHP",
+                "brief": "College Thesis",
+                "requirements": "PHP 5.6",
+                "image": "tobe_posted.png",
+                "url": "https://www.canadianwanderlust.com"
+            },
+            {
+                "title": "Superaire Static Website",
+                "category": "Company Projects",
+                "details": "Local Student Council Voting System / Pure PHP",
+                "brief": "College Thesis",
+                "requirements": "PHP 5.6",
+                "image": "tobe_posted.png",
+                "url": "https://www.canadianwanderlust.com"
+            },
+            {
+                "title": "CoachFirst Sports School System",
+                "category": "Company Projects",
+                "details": "Local Student Council Voting System / Pure PHP",
+                "brief": "College Thesis",
+                "requirements": "PHP 5.6",
+                "image": "tobe_posted.png",
+                "url": "https://www.canadianwanderlust.com"
+            },
+            {
+                "title": "Automated Campaign Management Systems (ACMS)",
+                "category": "Company Projects",
+                "details": "Local Student Council Voting System / Pure PHP",
+                "brief": "College Thesis",
+                "requirements": "PHP 5.6",
+                "image": "tobe_posted.png",
+                "url": "https://www.canadianwanderlust.com"
+            }
+        ]
     }
 }
