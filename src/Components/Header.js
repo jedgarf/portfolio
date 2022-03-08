@@ -72,7 +72,7 @@ class Header extends Component {
         </nav>
 
         <div className="row banner">
-          <div className="nine columns main-col">
+          {/* <div className="nine columns main-col"> */}
             <div className="banner-text">
                 {/* <center>
                   <img
@@ -81,9 +81,9 @@ class Header extends Component {
                     alt="alter"
                   />
                 </center> */}
-              <Fade bottom>
+              {/* <Fade bottom> */}
                 <big className="responsive-headline header-name">I'm <span id="header-name-text">John Edgar Francisco</span></big>
-              </Fade>
+              {/* </Fade> */}
               <Fade bottom duration={1200}>
                 <h3>{description}.</h3>
               </Fade>
@@ -99,8 +99,8 @@ class Header extends Component {
                 </ul>
               </Fade>
             </div>
-          </div>
-          <div className="three columns">
+          {/* </div> */}
+          {/* <div className="three columns">
             <center>
                   <img
                     style={{borderRadius: "20px", width: "500px"}}
@@ -108,7 +108,7 @@ class Header extends Component {
                     alt="alter"
                   />
             </center>
-          </div>
+          </div> */}
         </div>
 
         <p className="scrolldown">
