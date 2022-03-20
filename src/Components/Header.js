@@ -67,9 +67,9 @@ class Header extends Component {
         {/* <ParticlesBg type="lines" bg={true} /> */}
 
         <nav id="nav-wrap">
-        <div className="under-development-sign-div">
+        {/* <div className="under-development-sign-div">
           <h6 className="under-development-sign"><i className="fa fa-wrench"></i> Under Development</h6>
-        </div>
+        </div> */}
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
             Show navigation
           </a>
