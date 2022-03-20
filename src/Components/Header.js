@@ -59,7 +59,7 @@ class Header extends Component {
       mainCol = "eight columns";
       fNameFontSize = "35px";
       // main-col
-      desktopPic = <div className="four columns" style={{ textAlign: "right" }}><img style={{borderRadius: "30px", width: "300px", marginTop: "1px", border: "5px solid #000524", transform: "rotate(-10deg)" }} src={profilepic2} alt="alter"/></div>;
+      desktopPic = <div className="four columns" style={{ textAlign: "right" }}><img style={{borderRadius: "30px", width: "300px", border: "5px solid #000524", transform: "rotate(-10deg)" }} src={profilepic2} alt="alter"/></div>;
     }
 
     return (
