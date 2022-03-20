@@ -23,7 +23,7 @@ class Footer extends Component {
               <ul className="social-links">{networks}</ul>
 
               <ul className="copyright">
-                <li>&copy; Copyright 2020 - Created in ReactJS Framework</li>
+                <li>&copy; Copyright 2020 - Created in ReactJS Library</li>
                 {/* <li>
                   Design by{" "}
                   <a title="Styleshout" href="http://www.styleshout.com/">

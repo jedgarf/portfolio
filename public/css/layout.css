@@ -78,10 +78,11 @@ header .banner {
 header .banner-text {
     width: 100%;
     margin-left: 40px !important;
+    /* text-align: center; */
 }
 
 header .banner-text big {
-    font: 50px 'opensans-bold', sans-serif;
+    font: 35px 'opensans-bold', sans-serif;
     color: #fff;
     letter-spacing: -2px;
 }

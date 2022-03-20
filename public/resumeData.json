@@ -3,10 +3,11 @@
         "name": "John Edgar Francisco",
         "description": "I'm a Software Developer and I use some popular programming frameworks for my projects",
         "image": "profilepic5.jpg",
-        "image1": "profilepic3.jpg",
+        "image1": "profilepic6.jpg",
+        "image2": "profilepic3.jpg",
         "bio": "John Edgar is currently working as a Software Developer and is always interested in a challenging project.",
         "contactmessage": "If you have any questions, please feel free to drop me a line. If you don't get an answer immediately. I might just be travelling through the middle of nowhere. I'll get back to you as soon as I can. That's a promise!",
-        "email": "jedgarf.dev12@gmail.com",
+        "email": "jfrancisco@wesupportinc.com",
         "phone": "+639xxxxxxxxxx",
         "github": "https://github.com/jedgarf",
         "linkin": "https://www.linkedin.com/in/jedgarf/",
@@ -69,7 +70,7 @@
                 "website": "http://www.excelsispharma.com/",
                 "title": "IT Assistant (Internship)",
                 "years": "October 2017 - March 2018",
-                "description": "Bayanihan, Gapan City"
+                "description": "93 Camia St, Gapan City, 3105 Nueva Ecija"
             }
         ],
         "skills": [{
@@ -89,7 +90,7 @@
                 "level": "50%"
             },
             {
-                "name": "ReactJS (Frontend Web Framework)",
+                "name": "ReactJS (Frontend Web Library)",
                 "level": "50%"
             },
             {
@@ -99,6 +100,10 @@
             {
                 "name": "SQL (MySQL/PostgreSQL)",
                 "level": "80%"
+            },
+            {
+                "name": "C# (Windows Application)",
+                "level": "40%"
             }
         ]
     },

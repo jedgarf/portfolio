@@ -6,13 +6,33 @@ import { initialize } from "react-ga";
 
 class Header extends Component {
 
-  componentDidMount(){
-    // const myElement = document.querySelector('#header-name-text')
-    // if (myElement != null) {
-    //   init(myElement, { showCursor: false, strings: ['John Edgar Francisco', 'a Backend Web Developer', 'a Application Developer' ] })
-    // }
-    // init(myElement, { showCursor: false, strings: ['John Edgar Francisco', 'a Backend Web Developer', 'a Application Developer' ] })
+  constructor() {
+    super();
+    this.state = { screenWidth: null };
+    this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
   }
+  
+  componentDidMount() {
+      window.addEventListener("resize", this.updateWindowDimensions());
+  }
+  
+  componentWillUnmount() {
+      window.removeEventListener("resize", this.updateWindowDimensions)
+  }
+
+  componentDidUpdate() {
+    const myElement = document.querySelector('#myElement')
+      console.log(myElement);
+      if (myElement != null) {
+        init(myElement, { showCursor: false, strings: ['John Edgar Francisco', 'a Backend Web Developer', 'a Software Developer' ] })
+      }
+      // init(myElement, { showCursor: false, strings: ['John Edgar Francisco', 'a Backend Web Developer' ] })
+  }
+  
+  updateWindowDimensions() {
+     this.setState({ screenWidth: window.innerWidth });
+  }
+
 
   render() {
     if (!this.props.data) return null;
@@ -21,7 +41,26 @@ class Header extends Component {
     const linkin = this.props.data.linkin;
     const name = this.props.data.name;
     const profilepic = "images/" + this.props.data.image1;
+    const profilepic2 = "images/" + this.props.data.image2;
     const description = this.props.data.description;
+
+    var mobilePic;
+    var desktopPic;
+    var mainCol;
+    var fNameFontSize;
+
+    if (this.state.screenWidth <= 768) {
+      mobilePic = <div style={{ textAlign: "center" }}><img style={{borderRadius: "30px", width: "190px", marginBottom: "20px", border: "3px solid #000524"}} src={profilepic} alt="alter"/></div>;
+      mainCol = "";
+      desktopPic = "";
+      fNameFontSize = "25px";
+    } else {
+      mobilePic = "";
+      mainCol = "eight columns";
+      fNameFontSize = "35px";
+      // main-col
+      desktopPic = <div className="four columns" style={{ textAlign: "right" }}><img style={{borderRadius: "30px", width: "300px", marginTop: "1px", border: "5px solid #000524", transform: "rotate(-10deg)" }} src={profilepic2} alt="alter"/></div>;
+    }
 
     return (
       <header id="home">
@@ -78,17 +117,11 @@ class Header extends Component {
         </nav>
 
         <div className="row banner">
-          {/* <div className="nine columns main-col"> */}
+          <div className={mainCol}>
             <div className="banner-text">
-                {/* <center>
-                  <img
-                    style={{borderRadius: "50px", width: "150px", marginTop: "1px"}}
-                    src={profilepic}
-                    alt="alter"
-                  />
-                </center> */}
+                {mobilePic}
               {/* <Fade bottom> */}
-                <big className="responsive-headline header-name">I'm <span id="header-name-text">John Edgar Francisco</span></big>
+                <big className="responsive-headline header-name" style={{fontSize: fNameFontSize }}>I'm <span id="myElement"></span></big>
               {/* </Fade> */}
               <Fade bottom duration={1200}>
                 <h3>{description}.</h3>
@@ -105,16 +138,8 @@ class Header extends Component {
                 </ul>
               </Fade>
             </div>
-          {/* </div> */}
-          {/* <div className="three columns">
-            <center>
-                  <img
-                    style={{borderRadius: "20px", width: "500px"}}
-                    src={profilepic}
-                    alt="alter"
-                  />
-            </center>
-          </div> */}
+          </div>
+          {desktopPic}
         </div>
 
         <p className="scrolldown">
