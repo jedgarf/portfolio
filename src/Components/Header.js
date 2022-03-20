@@ -91,8 +91,20 @@ class Header extends Component {
             </li>
 
             <li>
+              <a className="smoothscroll" href="#education-content">
+                Education
+              </a>
+            </li>
+
+            <li>
               <a className="smoothscroll" href="#resume">
-                Education, Work Experience and Skills
+                Skills
+              </a>
+            </li>
+
+            <li>
+              <a className="smoothscroll" href="#work-content">
+                Working Experience
               </a>
             </li>
 

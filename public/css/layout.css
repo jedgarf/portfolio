@@ -359,13 +359,6 @@ ul#nav li.current a {
     padding-right: 10%;
 }
 
-.education,
-.work {
-    margin-bottom: 48px;
-    padding-bottom: 24px;
-    border-bottom: 1px solid #E8E8E8;
-}
-
 #resume .info {
     font: 16px/24px 'librebaskerville-italic', serif;
     color: #6E7881;
@@ -383,11 +376,145 @@ ul#nav li.current a {
     margin-top: 6px;
 }
 
-#resume .work .company-name {
+
+/* d. Education Section
+/* ------------------------------------------------------------------ */
+
+#education-content {
+    background: #fff;
+    padding-top: 90px;
+    padding-bottom: 72px;
+    overflow: hidden;
+}
+
+#education-content a,
+#education-content a:visited {
+    color: #0762f9;
+}
+
+#education-content a:hover,
+#education-content a:focus {
+    color: #313131;
+}
+
+#education-content h1 {
+    font: 18px/24px 'opensans-bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#education-content h1 span {
+    border-bottom: 3px solid #0762f9;
+    padding-bottom: 6px;
+}
+
+#education-content h3 {
+    font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#education-content .header-col {
+    padding-top: 9px;
+}
+
+#education-content .main-col {
+    padding-right: 10%;
+}
+
+.education {
+    margin-bottom: 48px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+#education-content .info {
+    font: 16px/24px 'librebaskerville-italic', serif;
+    color: #6E7881;
+    margin-bottom: 18px;
+    margin-top: 9px;
+}
+
+#education-content .info span {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#education-content .date {
+    font: 15px/24px 'opensans-regular', sans-serif;
+    margin-top: 6px;
+}
+
+#education-content .education .school-name {
     color: black;
 }
 
-#resume .education .school-name {
+
+/* d. Work Section
+/* ------------------------------------------------------------------ */
+
+#work-content {
+    background: #fff;
+    padding-top: 90px;
+    padding-bottom: 72px;
+    overflow: hidden;
+}
+
+#work-content a,
+#work-content a:visited {
+    color: #0762f9;
+}
+
+#work-content a:hover,
+#work-content a:focus {
+    color: #313131;
+}
+
+#work-content h1 {
+    font: 18px/24px 'opensans-bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#work-content h1 span {
+    border-bottom: 3px solid #0762f9;
+    padding-bottom: 6px;
+}
+
+#work-content h3 {
+    font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#work-content .header-col {
+    padding-top: 9px;
+}
+
+#work-content .main-col {
+    padding-right: 10%;
+}
+
+.work {
+    margin-bottom: 48px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+#work-content .info {
+    font: 16px/24px 'librebaskerville-italic', serif;
+    color: #6E7881;
+    margin-bottom: 18px;
+    margin-top: 9px;
+}
+
+#work-content .info span {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#work-content .date {
+    font: 15px/24px 'opensans-regular', sans-serif;
+    margin-top: 6px;
+}
+
+#work-content .work .company-name {
     color: black;
 }
 
