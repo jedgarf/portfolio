@@ -22,7 +22,7 @@ class Header extends Component {
 
   componentDidUpdate() {
     const myElement = document.querySelector('#myElement')
-      console.log(myElement);
+      // console.log(myElement);
       if (myElement != null) {
         init(myElement, { showCursor: false, strings: ['John Edgar Francisco', 'a Backend Web Developer', 'a Software Developer' ] })
       }
